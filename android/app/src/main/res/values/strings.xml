@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gshop</string>
+    <string name="facebook_app_id">1920111495170675</string>
+    <string name="fb_login_protocol_scheme">fb1920111495170675</string>
+    <string name="facebook_client_token">5c70ec727c0d51bfc63a4cf6f35fb138</string>
+</resources>

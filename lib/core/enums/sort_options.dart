@@ -1,0 +1,1 @@
+enum SortOption {priceLowToHigh, priceHighToLow, nameAToZ, nameZToA}
