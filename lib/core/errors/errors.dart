@@ -1,15 +1,15 @@
-import 'package:on_track_app/core/localization/strings.dart';
+import '../localization/strings.dart';
 
-abstract class AppErrors{
-  static String offlineErrorMessage= AppStrings.offlineError;
-  static String serverErrorMessage= AppStrings.serverError;
-  static String cacheErrorMessage= AppStrings.cacheError;
-  static String invalidPageNumberMessage= AppStrings.invalidPageNumberError;
-  static String timeoutMessage= AppStrings.timeoutError;
-  static String noCurrentUserMessage= AppStrings.noCurrentUser;
-  static String noDeviceTokenMessage= AppStrings.noDeviceToken;
-  static String noUserMessage= AppStrings.noCurrentUser;
-  static String userPermanentMessage= AppStrings.noCurrentUser;
-  static String unknownErrorMessage= AppStrings.noCurrentUser;
-  static String noImagePickedMessage= AppStrings.noImagePicked;
+abstract class AppErrors {
+  static String offlineErrorMessage = AppStrings.offlineError;
+  static String serverErrorMessage = AppStrings.serverError;
+  static String cacheErrorMessage = AppStrings.cacheError;
+  static String invalidPageNumberMessage = AppStrings.invalidPageNumberError;
+  static String timeoutMessage = AppStrings.timeoutError;
+  static String noCurrentUserMessage = AppStrings.noCurrentUserError;
+  static String noDeviceTokenMessage = AppStrings.noDeviceTokenError;
+  static String noUserMessage = AppStrings.noCurrentUserError;
+  static String userPermanentMessage = AppStrings.noCurrentUserError;
+  static String unknownErrorMessage = AppStrings.noCurrentUserError;
+  static String noImagePickedMessage = AppStrings.noImagePickedError;
 }

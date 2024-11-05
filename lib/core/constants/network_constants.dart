@@ -1,5 +1,5 @@
-import 'package:on_track_app/core/constants/app_durations.dart';
-import 'package:on_track_app/core/errors/exceptions.dart';
+import '../errors/exceptions.dart';
+import 'app_durations.dart';
 
 abstract class NetworkConstants{
   static const String apiKey='sk-proj-Uahti1I76I0s41VXrB6IT3BlbkFJ5LQJ1AM9aRvnxkvhHDcj';

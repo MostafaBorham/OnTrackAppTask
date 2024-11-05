@@ -1,7 +1,8 @@
 import 'package:get/get.dart';
-import 'package:on_track_app/core/constants/reg_exp_patterns.dart';
-import 'package:on_track_app/core/enums/countries.dart';
-import 'package:on_track_app/core/localization/strings.dart';
+
+import '../constants/reg_exp_patterns.dart';
+import '../enums/countries.dart';
+import '../localization/strings.dart';
 
 abstract class AppValidation {
   ////////////////////////////////////////////////////Public Methods

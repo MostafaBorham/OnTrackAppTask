@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:on_track_app/core/localization/strings.dart';
 import 'package:on_track_app/ui/resources/app_responsive.dart';
-import 'package:on_track_app/ui/resources/app_styles.dart';
+
+import '../../core/localization/strings.dart';
+import '../resources/app_styles.dart';
 
 void showNormalSnackBar({required BuildContext context, String? message}) {
   ScaffoldMessenger.of(context)

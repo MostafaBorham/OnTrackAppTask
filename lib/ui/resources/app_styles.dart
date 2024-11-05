@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:on_track_app/ui/resources/app_colors.dart';
-import 'package:on_track_app/ui/resources/app_fonts.dart';
+
+import 'app_colors.dart';
+import 'app_fonts.dart';
 
 abstract class AppStyles {
   static TextStyle? getThinStyle({

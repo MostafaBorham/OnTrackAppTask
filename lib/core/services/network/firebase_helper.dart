@@ -3,9 +3,10 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:on_track_app/core/constants/network_constants.dart';
-import 'package:on_track_app/core/errors/errors.dart';
-import 'package:on_track_app/core/errors/exceptions.dart';
+
+import '../../constants/network_constants.dart';
+import '../../errors/errors.dart';
+import '../../errors/exceptions.dart';
 
 abstract class FirebaseHelper {
   static final _firebaseAuth = FirebaseAuth.instance;

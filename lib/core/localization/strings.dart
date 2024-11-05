@@ -49,9 +49,9 @@ abstract class AppStrings {
   static const String _cacheError = 'cacheErrorMsg';
   static const String _invalidPageNumberError = 'invalidPageNumberErrorMsg';
   static const String _timeoutError = 'timeoutErrorMsg';
-  static const String _noCurrentUser = 'noCurrentUser';
-  static const String _noDeviceToken = 'noDeviceToken';
-  static const String _noImagePicked = 'noImagePicked';
+  static const String _noCurrentUserError = 'noCurrentUserError';
+  static const String _noDeviceTokenError = 'noDeviceTokenError';
+  static const String _noImagePickedError = 'noImagePickedError';
 
   ///
   static const String _noMessage = 'noMessage';
@@ -234,11 +234,11 @@ abstract class AppStrings {
 
   static String get timeoutError => _timeoutError.tr();
 
-  static String get noCurrentUser => _noCurrentUser.tr();
+  static String get noCurrentUserError => _noCurrentUserError.tr();
 
-  static String get noDeviceToken => _noDeviceToken.tr();
+  static String get noDeviceTokenError => _noDeviceTokenError.tr();
 
-  static String get noImagePicked => _noImagePicked.tr();
+  static String get noImagePickedError => _noImagePickedError.tr();
 
   static String get noMessage => _noMessage.tr();
 

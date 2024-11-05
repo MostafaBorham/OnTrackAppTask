@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:on_track_app/controllers/app_configs/app_configs_bloc.dart';
-import 'package:on_track_app/core/constants/app_keys.dart';
 import 'package:on_track_app/core/extensions/theme_mode.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../../controllers/app_configs/app_configs_bloc.dart';
+import '../../constants/app_keys.dart';
 
 abstract class CacheHelper {
   //////////////////////////////////////////////////////////////////

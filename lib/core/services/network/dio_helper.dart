@@ -1,5 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:on_track_app/core/constants/network_constants.dart';
+
+import '../../constants/network_constants.dart';
+
 
 abstract class DioHelper {
   static Dio? productDio;

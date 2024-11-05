@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:on_track_app/core/localization/localization_constants.dart';
+
+import 'localization_constants.dart';
 
 class LocalizationInit extends StatelessWidget {
   const LocalizationInit({super.key, required this.child});

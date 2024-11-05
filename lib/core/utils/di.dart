@@ -1,10 +1,11 @@
 import 'package:get_it/get_it.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:on_track_app/controllers/app_configs/app_configs_bloc.dart';
-import 'package:on_track_app/controllers/auth/auth_bloc.dart';
-import 'package:on_track_app/controllers/product/product_bloc.dart';
 import 'package:uuid/uuid.dart';
+
+import '../../controllers/app_configs/app_configs_bloc.dart';
+import '../../controllers/auth/auth_bloc.dart';
+import '../../controllers/product/product_bloc.dart';
 
 abstract class DependencyInjector {
   static final instance = GetIt.instance;

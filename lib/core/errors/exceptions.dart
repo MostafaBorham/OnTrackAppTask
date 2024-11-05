@@ -1,4 +1,4 @@
-import 'package:on_track_app/core/errors/errors.dart';
+import 'errors.dart';
 
 class InvalidPageNumberException implements Exception {
   @override

@@ -1,16 +1,16 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:on_track_app/controllers/app_configs/app_configs_bloc.dart';
-import 'package:on_track_app/controllers/auth/auth_bloc.dart';
-import 'package:on_track_app/controllers/product/product_bloc.dart';
-import 'package:on_track_app/core/localization/strings.dart';
-import 'package:on_track_app/core/routing/app_navigation_observer.dart';
-import 'package:on_track_app/core/routing/app_routes.dart';
-import 'package:on_track_app/core/routing/router.dart';
-import 'package:on_track_app/core/utils/di.dart';
-import 'ui/resources/app_responsive.dart';
-import 'ui/resources/app_themes.dart';
+import 'package:on_track_app/ui/resources/app_responsive.dart';
+import 'package:on_track_app/ui/resources/app_themes.dart';
+import 'controllers/app_configs/app_configs_bloc.dart';
+import 'controllers/auth/auth_bloc.dart';
+import 'controllers/product/product_bloc.dart';
+import 'core/localization/strings.dart';
+import 'core/routing/app_navigation_observer.dart';
+import 'core/routing/app_routes.dart';
+import 'core/routing/router.dart';
+import 'core/utils/di.dart';
 
 class OnTrackApp extends StatelessWidget {
   const OnTrackApp({super.key});

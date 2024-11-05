@@ -1,6 +1,6 @@
-
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:on_track_app/core/utils/di.dart';
+
+import '../utils/di.dart';
 
 class ConnectionChecker {
   static Future<bool> get isConnected =>

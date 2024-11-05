@@ -4,9 +4,10 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:on_track_app/core/connection/connection_checker.dart';
-import 'package:on_track_app/core/services/local/cache_helper.dart';
+
+import '../../core/connection/connection_checker.dart';
 import '../../core/localization/localization_constants.dart';
+import '../../core/services/local/cache_helper.dart';
 
 part 'app_configs_event.dart';
 part 'app_configs_state.dart';

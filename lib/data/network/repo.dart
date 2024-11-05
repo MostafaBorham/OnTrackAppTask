@@ -73,7 +73,7 @@ abstract class NetworkRepo {
         final productsResponse = await DioHelper.getProductData(
             endPoint: NetworkEndpoints.allProductsEndpoint,
             params: {
-              NetworkConstants.sortKey : name,
+              NetworkConstants.sortKey: name,
             });
         if (productsResponse.statusCode != NetworkConstants.successStatusCode) {
           return Left(Failure(message: productsResponse.statusMessage));
